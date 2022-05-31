@@ -1,0 +1,22 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1653974557.json", 
+	"title": "Root", 
+	"type": "object",
+	"required": [
+		"error"
+	],
+	"properties": {
+		"error": {
+			"$id": "#root/error", 
+			"title": "Error", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"Missing email or username"
+			],
+			"pattern": "^.*$"
+		}
+	}
+}

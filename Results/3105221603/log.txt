@@ -1,0 +1,162 @@
+31-05-2022 16:03:13   Info   https://reqres.in/api/register
+31-05-2022 16:03:13   Info   https://reqres.in/api/login
+31-05-2022 16:03:13   Info   https://gorest.co.in/public/v2/users
+31-05-2022 16:03:13   Info   https://reqres.in/api/login
+31-05-2022 16:03:13   Info   https://reqres.in/api/register
+31-05-2022 16:03:13   Info   https://testPedia.com/v2/procesOrder
+31-05-2022 16:03:13   Info   https://gorest.co.in/public/v2/users
+31-05-2022 16:03:22   Info   Response Body Result : <br/>{<br/>    "id": 1591,<br/>    "name": "Deependra Iyengar",<br/>    "email": "iyengar_deependra@hintz.org",<br/>    "gender": "male",<br/>    "status": "inactive"<br/>}
+31-05-2022 16:03:22   Info   Response Body Expected : <br/>{<br/>  "gender": "male",<br/>  "name": "Deependra Iyengar",<br/>  "id": 1591,<br/>  "email": "iyengar_deependra@hintz.org",<br/>  "status": "inactive"<br/>}
+31-05-2022 16:03:22   Pass   Compare Response Code is same Expected<br/>Response Code Expected:<br/>200<br/> Result:<br/>200
+31-05-2022 16:03:22   Pass   Compare Status Line is same Expected<br/>Status Line Expected:<br/>HTTP/1.1 200 OK<br/> Result:<br/>HTTP/1.1 200 OK
+31-05-2022 16:03:22   Pass   Compare Response Body is same Expected<br/>Response Body Expected:<br/>{
+  "gender": "male",
+  "name": "Deependra Iyengar",
+  "id": 1591,
+  "email": "iyengar_deependra@hintz.org",
+  "status": "inactive"
+}<br/> Result:<br/>{
+  "gender": "male",
+  "name": "Deependra Iyengar",
+  "id": 1591,
+  "email": "iyengar_deependra@hintz.org",
+  "status": "inactive"
+}
+31-05-2022 16:03:22   Info   Response Parameters : <br/>{<br/>  "password": "cityslicka",<br/>  "email": "eve.holt@reqres.in"<br/>}
+31-05-2022 16:03:22   Info   Response Body Result : <br/>{<br/>    "token": "QpwL5tke4Pnpja7X4"<br/>}
+31-05-2022 16:03:22   Info   Response Body Expected : <br/>{<br/>  "token": "QpwL5tke4Pnpja7X4"<br/>}
+31-05-2022 16:03:22   Pass   Compare Response Code is same Expected<br/>Response Code Expected:<br/>200<br/> Result:<br/>200
+31-05-2022 16:03:22   Pass   Compare Status Line is same Expected<br/>Status Line Expected:<br/>HTTP/1.1 200 OK<br/> Result:<br/>HTTP/1.1 200 OK
+31-05-2022 16:03:22   Pass   Compare Response Body is same Expected<br/>Response Body Expected:<br/>{
+  "token": "QpwL5tke4Pnpja7X4"
+}<br/> Result:<br/>{
+  "token": "QpwL5tke4Pnpja7X4"
+}
+31-05-2022 16:03:22   Info   Response Parameters : <br/>{<br/>  "password": "pistol",<br/>  "email": "eve.holt@reqres.in"<br/>}
+31-05-2022 16:03:22   Info   Response Body Result : <br/>{<br/>    "id": 4,<br/>    "token": "QpwL5tke4Pnpja7X4"<br/>}
+31-05-2022 16:03:22   Info   Response Parameters : <br/>{<br/>  "password": "pistols",<br/>  "email": "xxxx"<br/>}
+31-05-2022 16:03:22   Info   Response Body Expected : <br/>{<br/>  "id": 4,<br/>  "token": "QpwL5tke4Pnpja7X4"<br/>}
+31-05-2022 16:03:22   Pass   Compare Response Code is same Expected<br/>Response Code Expected:<br/>200<br/> Result:<br/>200
+31-05-2022 16:03:22   Info   Response Body Result : <br/>{<br/>    "error": "Note: Only defined users succeed registration"<br/>}
+31-05-2022 16:03:22   Pass   Compare Status Line is same Expected<br/>Status Line Expected:<br/>HTTP/1.1 200 OK<br/> Result:<br/>HTTP/1.1 200 OK
+31-05-2022 16:03:22   Info   Response Body Expected : <br/>{<br/>  "error": "Note: Only defined users succeed registration"<br/>}
+31-05-2022 16:03:22   Pass   Compare Response Body is same Expected<br/>Response Body Expected:<br/>{
+  "id": 4,
+  "token": "QpwL5tke4Pnpja7X4"
+}<br/> Result:<br/>{
+  "id": 4,
+  "token": "QpwL5tke4Pnpja7X4"
+}
+31-05-2022 16:03:22   Pass   Compare Response Code is same Expected<br/>Response Code Expected:<br/>400<br/> Result:<br/>400
+31-05-2022 16:03:22   Pass   Compare Status Line is same Expected<br/>Status Line Expected:<br/>HTTP/1.1 400 Bad Request<br/> Result:<br/>HTTP/1.1 400 Bad Request
+31-05-2022 16:03:22   Pass   Compare Response Body is same Expected<br/>Response Body Expected:<br/>{
+  "error": "Note: Only defined users succeed registration"
+}<br/> Result:<br/>{
+  "error": "Note: Only defined users succeed registration"
+}
+31-05-2022 16:03:22   Info   Response Body Result : <br/>{<br/>    "id": 1592,<br/>    "name": "Indra Pilla",<br/>    "email": "indra_pilla@macejkovic-kautzer.name",<br/>    "gender": "male",<br/>    "status": "inactive"<br/>}
+31-05-2022 16:03:22   Info   Response Body Expected : <br/>{<br/>  "gender": "male",<br/>  "name": "Deependra Iyengar",<br/>  "id": 1591,<br/>  "email": "iyengar_deependra@hintz.org",<br/>  "status": "inactive"<br/>}
+31-05-2022 16:03:22   Fail   Compare Response Code is not same Expected<br/>Response Code Expected:<br/>333<br/> Result:<br/>200
+31-05-2022 16:03:22   Fail   Fail  testExampleAPIGet
+31-05-2022 16:03:22   Fail   Fail  testExampleAPITest1
+31-05-2022 16:03:22   Pass   Compare schema is same Expected<br/>Schema Expected<br/>
+31-05-2022 16:03:22   Pass   Pass  testExampleAPIPost
+31-05-2022 16:03:22   Info   Response Parameters : <br/>{<br/>  "password": "",<br/>  "email": ""<br/>}
+31-05-2022 16:03:22   Info   Response Body Result : <br/>{<br/>    "error": "Missing email or username"<br/>}
+31-05-2022 16:03:22   Info   Response Body Expected : <br/>{<br/>  "error": "Missing email or username"<br/>}
+31-05-2022 16:03:22   Pass   Compare Response Code is same Expected<br/>Response Code Expected:<br/>400<br/> Result:<br/>400
+31-05-2022 16:03:22   Pass   Compare Status Line is same Expected<br/>Status Line Expected:<br/>HTTP/1.1 400 Bad Request<br/> Result:<br/>HTTP/1.1 400 Bad Request
+31-05-2022 16:03:22   Pass   Compare Response Body is same Expected<br/>Response Body Expected:<br/>{
+  "error": "Missing email or username"
+}<br/> Result:<br/>{
+  "error": "Missing email or username"
+}
+31-05-2022 16:03:22   Pass   Compare schema is same Expected<br/>Schema Expected<br/>
+31-05-2022 16:03:22   Pass   Pass  testExampleAPIPost
+31-05-2022 16:03:23   Pass   Compare schema is same Expected<br/>Schema Expected<br/>
+31-05-2022 16:03:23   Pass   Pass  testExampleAPIPost
+31-05-2022 16:03:23   Pass   Compare schema is same Expected<br/>Schema Expected<br/>
+31-05-2022 16:03:23   Pass   Pass  testExampleAPIPost
+31-05-2022 16:03:23   Pass   Compare schema is same Expected<br/>Schema Expected<br/>
+31-05-2022 16:03:23   Pass   Pass  testExampleAPIGet
+31-05-2022 16:03:31   Info   https://reqres.in/api/login
+31-05-2022 16:03:31   Info   https://reqres.in/api/login
+31-05-2022 16:03:31   Info   https://gorest.co.in/public/v2/users
+31-05-2022 16:03:31   Info   https://gorest.co.in/public/v2/users
+31-05-2022 16:03:31   Info   https://reqres.in/api/register
+31-05-2022 16:03:31   Info   https://testPedia.com/v2/procesOrder
+31-05-2022 16:03:31   Info   https://reqres.in/api/register
+31-05-2022 16:03:33   Fail   Fail  testExampleAPITest1
+31-05-2022 16:03:33   Info   Response Body Result : <br/>{<br/>    "id": 1591,<br/>    "name": "Deependra Iyengar",<br/>    "email": "iyengar_deependra@hintz.org",<br/>    "gender": "male",<br/>    "status": "inactive"<br/>}
+31-05-2022 16:03:33   Info   Response Body Expected : <br/>{<br/>  "gender": "male",<br/>  "name": "Deependra Iyengar",<br/>  "id": 1591,<br/>  "email": "iyengar_deependra@hintz.org",<br/>  "status": "inactive"<br/>}
+31-05-2022 16:03:33   Pass   Compare Response Code is same Expected<br/>Response Code Expected:<br/>200<br/> Result:<br/>200
+31-05-2022 16:03:33   Pass   Compare Status Line is same Expected<br/>Status Line Expected:<br/>HTTP/1.1 200 OK<br/> Result:<br/>HTTP/1.1 200 OK
+31-05-2022 16:03:33   Pass   Compare Response Body is same Expected<br/>Response Body Expected:<br/>{
+  "gender": "male",
+  "name": "Deependra Iyengar",
+  "id": 1591,
+  "email": "iyengar_deependra@hintz.org",
+  "status": "inactive"
+}<br/> Result:<br/>{
+  "gender": "male",
+  "name": "Deependra Iyengar",
+  "id": 1591,
+  "email": "iyengar_deependra@hintz.org",
+  "status": "inactive"
+}
+31-05-2022 16:03:33   Info   Response Body Result : <br/>{<br/>    "id": 1592,<br/>    "name": "Indra Pilla",<br/>    "email": "indra_pilla@macejkovic-kautzer.name",<br/>    "gender": "male",<br/>    "status": "inactive"<br/>}
+31-05-2022 16:03:33   Info   Response Body Expected : <br/>{<br/>  "gender": "male",<br/>  "name": "Deependra Iyengar",<br/>  "id": 1591,<br/>  "email": "iyengar_deependra@hintz.org",<br/>  "status": "inactive"<br/>}
+31-05-2022 16:03:33   Fail   Compare Response Code is not same Expected<br/>Response Code Expected:<br/>333<br/> Result:<br/>200
+31-05-2022 16:03:33   Fail   Fail  testExampleAPIGet
+31-05-2022 16:03:33   Info   Response Parameters : <br/>{<br/>  "password": "",<br/>  "email": ""<br/>}
+31-05-2022 16:03:33   Info   Response Body Result : <br/>{<br/>    "error": "Missing email or username"<br/>}
+31-05-2022 16:03:33   Info   Response Body Expected : <br/>{<br/>  "error": "Missing email or username"<br/>}
+31-05-2022 16:03:33   Pass   Compare Response Code is same Expected<br/>Response Code Expected:<br/>400<br/> Result:<br/>400
+31-05-2022 16:03:33   Pass   Compare Status Line is same Expected<br/>Status Line Expected:<br/>HTTP/1.1 400 Bad Request<br/> Result:<br/>HTTP/1.1 400 Bad Request
+31-05-2022 16:03:33   Pass   Compare Response Body is same Expected<br/>Response Body Expected:<br/>{
+  "error": "Missing email or username"
+}<br/> Result:<br/>{
+  "error": "Missing email or username"
+}
+31-05-2022 16:03:33   Info   Response Parameters : <br/>{<br/>  "password": "cityslicka",<br/>  "email": "eve.holt@reqres.in"<br/>}
+31-05-2022 16:03:33   Info   Response Body Result : <br/>{<br/>    "token": "QpwL5tke4Pnpja7X4"<br/>}
+31-05-2022 16:03:33   Info   Response Body Expected : <br/>{<br/>  "token": "QpwL5tke4Pnpja7X4"<br/>}
+31-05-2022 16:03:33   Pass   Compare Response Code is same Expected<br/>Response Code Expected:<br/>200<br/> Result:<br/>200
+31-05-2022 16:03:33   Pass   Compare Status Line is same Expected<br/>Status Line Expected:<br/>HTTP/1.1 200 OK<br/> Result:<br/>HTTP/1.1 200 OK
+31-05-2022 16:03:33   Pass   Compare Response Body is same Expected<br/>Response Body Expected:<br/>{
+  "token": "QpwL5tke4Pnpja7X4"
+}<br/> Result:<br/>{
+  "token": "QpwL5tke4Pnpja7X4"
+}
+31-05-2022 16:03:33   Info   Response Parameters : <br/>{<br/>  "password": "pistol",<br/>  "email": "eve.holt@reqres.in"<br/>}
+31-05-2022 16:03:33   Info   Response Body Result : <br/>{<br/>    "id": 4,<br/>    "token": "QpwL5tke4Pnpja7X4"<br/>}
+31-05-2022 16:03:33   Info   Response Body Expected : <br/>{<br/>  "id": 4,<br/>  "token": "QpwL5tke4Pnpja7X4"<br/>}
+31-05-2022 16:03:33   Pass   Compare Response Code is same Expected<br/>Response Code Expected:<br/>200<br/> Result:<br/>200
+31-05-2022 16:03:33   Pass   Compare Status Line is same Expected<br/>Status Line Expected:<br/>HTTP/1.1 200 OK<br/> Result:<br/>HTTP/1.1 200 OK
+31-05-2022 16:03:33   Pass   Compare Response Body is same Expected<br/>Response Body Expected:<br/>{
+  "id": 4,
+  "token": "QpwL5tke4Pnpja7X4"
+}<br/> Result:<br/>{
+  "id": 4,
+  "token": "QpwL5tke4Pnpja7X4"
+}
+31-05-2022 16:03:33   Info   Response Parameters : <br/>{<br/>  "password": "pistols",<br/>  "email": "xxxx"<br/>}
+31-05-2022 16:03:33   Info   Response Body Result : <br/>{<br/>    "error": "Note: Only defined users succeed registration"<br/>}
+31-05-2022 16:03:33   Info   Response Body Expected : <br/>{<br/>  "error": "Note: Only defined users succeed registration"<br/>}
+31-05-2022 16:03:33   Pass   Compare Response Code is same Expected<br/>Response Code Expected:<br/>400<br/> Result:<br/>400
+31-05-2022 16:03:33   Pass   Compare Status Line is same Expected<br/>Status Line Expected:<br/>HTTP/1.1 400 Bad Request<br/> Result:<br/>HTTP/1.1 400 Bad Request
+31-05-2022 16:03:33   Pass   Compare Response Body is same Expected<br/>Response Body Expected:<br/>{
+  "error": "Note: Only defined users succeed registration"
+}<br/> Result:<br/>{
+  "error": "Note: Only defined users succeed registration"
+}
+31-05-2022 16:03:33   Pass   Compare schema is same Expected<br/>Schema Expected<br/>
+31-05-2022 16:03:33   Pass   Compare schema is same Expected<br/>Schema Expected<br/>
+31-05-2022 16:03:33   Pass   Pass  testExampleAPIPost
+31-05-2022 16:03:33   Pass   Pass  testExampleAPIPost
+31-05-2022 16:03:34   Pass   Compare schema is same Expected<br/>Schema Expected<br/>
+31-05-2022 16:03:34   Pass   Pass  testExampleAPIPost
+31-05-2022 16:03:34   Pass   Compare schema is same Expected<br/>Schema Expected<br/>
+31-05-2022 16:03:34   Pass   Pass  testExampleAPIPost
+31-05-2022 16:03:34   Pass   Compare schema is same Expected<br/>Schema Expected<br/>
+31-05-2022 16:03:34   Pass   Pass  testExampleAPIGet
